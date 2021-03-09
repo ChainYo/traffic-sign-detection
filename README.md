@@ -132,7 +132,7 @@ Finally we divided the file in 2 distinct csv files, `train_labels.csv` and `tes
 
 #### TFRecord
 
-Open the [generate_tfrecord.py file](generate_tfrecord.py) and replace the labelmap inside the `class_text_to_int` method with only 1 label map.
+Open the [generate_tfrecord.py](https://github.com/TannerGilbert/Tensorflow-Object-Detection-API-Train-Model/blob/master/generate_tfrecord.py) file and replace the labelmap inside the `class_text_to_int` method with only 1 label map.
 
 In order to train the model, you need to generate a TFRecord by typing:
 
